@@ -1,0 +1,33 @@
+  // this class prevent scroll - js connected 
+.js-dont-scroll{ position:fixed;}//
+///////////////////START CANVAS
+
+canvas { 
+  user-select: none;
+  z-index: -10; 
+  margin: 0 auto;
+ 
+
+  
+  
+  
+ //   position: absolute;
+ // top: -50px;
+ // z-index: -10; 
+//width: 800px;
+//height: 70vh;
+//left: 50%;
+//top: 20%;
+
+//margin-left: -400px;  
+//margin-top: -300px; This is half the height */
+  }
+ 
+canvas + canvas { opacity: 0.3; z-index: -10;  }
+
+/*
+.headline { position: fixed; top: 40px; left: 30%; right: 30%; z-index: -10; font-size: 4vw; color: #000; text-align: center;  font-weight: 700; user-select: none; display: block;}
+*/
+
+
+.loading:before {  position: absolute; top: 0; left: 0; padding: 1em; content: 'Loading...'; color: #aaa; font-family: monospace;}
