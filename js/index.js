@@ -14,7 +14,7 @@ var opts = {
 
 
   ///this is the first rendered image
-  ChangeGlyph: 'https://i.ibb.co/kXXb6Nz/e.png',
+  ChangeGlyph: 'https://i.ibb.co/nw2YsTh/e.png',
 
 
 
@@ -35,7 +35,7 @@ var opts = {
 
   randomImage: function randomImage() {
     /// this.image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ454id5ldfep-mLVLeFt57_IsJz54Mopj5KxI1ZBIzn9eRmqDC4Q' + Math.floor(Math.random() * 1100);
-    //  RANDOM IMAGE OPT REMOVED 
+    //  RANDOM IMAGE OPT REMOVED
     loadTexture();
   } };
 
@@ -44,38 +44,38 @@ var opts = {
 var gui = new dat.GUI();
 gui.closed = window.innerWidth < 600;
 
-/// let renderCloth = gui.add(opts, 'renderCloth'); 
+/// let renderCloth = gui.add(opts, 'renderCloth');
 
 ///this is the list of images
 //I changed opts.image to opts.glyph
 
 var image = gui.add(opts, 'ChangeGlyph', {
-  A: 'https://i.ibb.co/1v4Y0DY/a.png',
-  B: 'https://i.ibb.co/z7Tp8xG/b.png',
-  C: 'https://i.ibb.co/xfbKQyq/c.png',
-  D: 'https://i.ibb.co/W67VXKs/d.png',
-  E: 'https://i.ibb.co/kXXb6Nz/e.png',
-  F: 'https://i.ibb.co/52wx1Kt/f.png',
-  G: 'https://i.ibb.co/n642dZ4/g.png',
-  H: 'https://i.ibb.co/4pG5WqW/h.png',
-  I: 'https://i.ibb.co/KsmsZBw/i.png',
-  J: 'https://i.ibb.co/N1z5nBK/j.png',
-  K: 'https://i.ibb.co/kcRMGht/k.png',
-  L: 'https://i.ibb.co/nfYXR78/l.png',
-  M: 'https://i.ibb.co/zJzYp9S/m.png',
-  N: 'https://i.ibb.co/pw1tzPG/n.png',
-  O: 'https://i.ibb.co/Mn33DgC/o.png',
-  P: 'https://i.ibb.co/NFb4QHg/p.png',
-  Q: 'https://i.ibb.co/F8CkxM9/q.png',
-  R: 'https://i.ibb.co/WBSmpRv/r.png',
-  S: 'https://i.ibb.co/ySfrR1p/s.png',
-  T: 'https://i.ibb.co/8Xn0xnZ/t.png',
-  U: 'https://i.ibb.co/WGnXzmB/u.png',
-  V: 'https://i.ibb.co/Vp7jt0N/v.png',
-  W: 'https://i.ibb.co/0CPqbcM/w.png',
-  X: 'https://i.ibb.co/pwsDkmz/x.png',
-  Y: 'https://i.ibb.co/Fx0ZfyL/y.png',
-  Z: 'https://i.ibb.co/bN6Sxk9/z.png' });
+  A: 'https://i.ibb.co/fq0dszq/a.png',
+  B: 'https://i.ibb.co/8zLKPV7/b.png',
+  C: 'https://i.ibb.co/Px9D8pN/c.png',
+  D: 'https://i.ibb.co/KLKjh5X/d.png',
+  E: 'https://i.ibb.co/nw2YsTh/e.png',
+  F: 'https://i.ibb.co/bdZjWDT/f.png',
+  G: 'https://i.ibb.co/MBN5NqL/g.png',
+  H: 'https://i.ibb.co/1Gc0Rrg/h.png',
+  I: 'https://i.ibb.co/hCDzNyM/i.png',
+  J: 'https://i.ibb.co/Gnxd69m/j.png',
+  K: 'https://i.ibb.co/bQLD7wT/k.png',
+  L: 'https://i.ibb.co/6PqhvDy/l.png',
+  M: 'https://i.ibb.co/MGmn5pt/m.png',
+  N: 'https://i.ibb.co/tCTZMvL/n.png',
+  O: 'https://i.ibb.co/f0X3W7F/o.png',
+  P: 'https://i.ibb.co/cvYcn0G/p.png',
+  Q: 'https://i.ibb.co/C6CbT2q/q.png',
+  R: 'https://i.ibb.co/gSZvpQ0/r.png',
+  S: 'https://i.ibb.co/sK170HC/s.png',
+  T: 'https://i.ibb.co/9bKbPL1/t.png',
+  U: 'https://i.ibb.co/3cwPXPL/u.png',
+  V: 'https://i.ibb.co/CwWX6Zq/v.png',
+  W: 'https://i.ibb.co/whGPRSR/w.png',
+  X: 'https://i.ibb.co/B4hs06L/x.png',
+  Y: 'https://i.ibb.co/bzXmR86/y.png',
+  Z: 'https://i.ibb.co/vvqBtx1/z.png' });
 
 
 
