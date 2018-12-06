@@ -51,14 +51,20 @@ gui.closed = window.innerWidth < 600;
 
 var image = gui.add(opts, 'ChangeGlyph', {
   A: 'https://i.ibb.co/fq0dszq/a.png',
+  ALTERATE: 'https://i.ibb.co/v4n9gBT/alterate.png',
   B: 'https://i.ibb.co/8zLKPV7/b.png',
   C: 'https://i.ibb.co/Px9D8pN/c.png',
   D: 'https://i.ibb.co/KLKjh5X/d.png',
+  DESTRUCTION: 'https://i.ibb.co/Vm5kyw2/destruction.png',
+  DUALISM: 'https://i.ibb.co/CbmW8Gy/dualism.png',
   E: 'https://i.ibb.co/nw2YsTh/e.png',
+  EXTEND: 'https://i.ibb.co/fCQD66b/extend.png',
   F: 'https://i.ibb.co/bdZjWDT/f.png',
   G: 'https://i.ibb.co/MBN5NqL/g.png',
   H: 'https://i.ibb.co/1Gc0Rrg/h.png',
+  HYBRID: 'https://i.ibb.co/N7Dz8tN/hybrid.png',
   I: 'https://i.ibb.co/hCDzNyM/i.png',
+  IDENTITY: 'https://i.ibb.co/BgT7TS6/identity.png',
   J: 'https://i.ibb.co/Gnxd69m/j.png',
   K: 'https://i.ibb.co/bQLD7wT/k.png',
   L: 'https://i.ibb.co/6PqhvDy/l.png',
@@ -68,16 +74,16 @@ var image = gui.add(opts, 'ChangeGlyph', {
   P: 'https://i.ibb.co/cvYcn0G/p.png',
   Q: 'https://i.ibb.co/C6CbT2q/q.png',
   R: 'https://i.ibb.co/gSZvpQ0/r.png',
+  RESHAPE: 'https://i.ibb.co/c8wtKc0/reshape.png',
   S: 'https://i.ibb.co/sK170HC/s.png',
   T: 'https://i.ibb.co/9bKbPL1/t.png',
+  T: 'https://i.ibb.co/S6k6QXf/technology.png',
   U: 'https://i.ibb.co/3cwPXPL/u.png',
   V: 'https://i.ibb.co/CwWX6Zq/v.png',
   W: 'https://i.ibb.co/whGPRSR/w.png',
   X: 'https://i.ibb.co/B4hs06L/x.png',
   Y: 'https://i.ibb.co/bzXmR86/y.png',
   Z: 'https://i.ibb.co/vvqBtx1/z.png' });
-
-
 
 image.onChange(loadTexture);
 
@@ -88,7 +94,6 @@ image.onChange(loadTexture);
 //let bounce = gui.add(opts, 'bounce', 0, 2).step(0.1);
 
 //Changed pinCorners to HangDrop
-
 
 var pin = gui.add(opts, 'HangDrop');
 pin.onChange(loadTexture);
